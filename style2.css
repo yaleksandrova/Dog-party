@@ -8,13 +8,16 @@ body {
 .dog-image {
   border-radius: 50%;
   border: #048eaa 3px solid;
-  margin-bottom: 80px;
+  margin-bottom: 25px;
   height: 200px;
+  float: left;
+  margin-left: 25px;
+
 }
 
 /*----------Nav------------*/
 nav {
-  background-color: #75e2e6;
+  background-color: #9A969C;
   align-items: right;
   padding-right: 100px;
   padding-right: 25px;
@@ -54,7 +57,7 @@ a {
 
 header {
   padding: 10px;
-  background-image: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),url("images/park.jpg");
+  background-color: #3E3544;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -88,21 +91,26 @@ input {
 }
 /*-----------Main------------*/
 main {
-  height: 700px;
+  height: 1000px;
 
 }
 .column1, .column2, .column3 {
-  width: 31%;
+  width: 100%;
   margin: 10px;
   margin-left: 10px;
   display: inline-block;
   float: left;
   text-align: center;
 }
-button {
+.main-button {
+  width: 100px;
+  float: right;
+  margin-right: 25px;
 }
 p {
-  height: 200px;
+  width: 80%;
+  text-align: left;
+  float: right;
 }
 /*------------Footer----------*/
 .footer-nav-link {
