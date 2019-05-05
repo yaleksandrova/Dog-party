@@ -2,6 +2,8 @@
 body {
 
   font-family: Open Sans;
+  margin: 0px;
+  height: 
 }
 .dog-image {
   border-radius: 50%;
@@ -20,12 +22,12 @@ nav {
   border-bottom: solid #048eaa 3px;
 
 }
-  nav li {
-    list-style-type: none;
-    display: inline-block;
-    padding-left: 10px;
-    list-style-position: right;
-    float: right;
+nav li {
+  list-style-type: none;
+  display: inline-block;
+  padding-left: 10px;
+  list-style-position: right;
+  float: right;
     
 
 }
@@ -85,8 +87,12 @@ input {
   border-style: none;
 }
 /*-----------Main------------*/
+main {
+  height: 700px;
+
+}
 .column1, .column2, .column3 {
-  width: 25%;
+  width: 31%;
   margin: 10px;
   margin-left: 10px;
   display: inline-block;
@@ -102,24 +108,18 @@ button {
 }
 
 /*------------Footer----------*/
-.nav-link {
-display: center;
-padding-top: 50%;
-margin: 300px;
-background-color: #75e2e6;
-height: 300px;
-width: 250px;
-box-sizing: border-box;
-  
+.footer-nav-link {
+  background-color: #75e2e6;
+  height: 100px;
 }
 
 span {
-text-align: center;
-display: block;
+  text-align: center;
+  display: block;
 }
   
 .twitter .instagram .facebook .linkedin {
-display: inline;
-padding-top: 100%;
+  display: inline;
+  padding-top: 100%;
 }
 
