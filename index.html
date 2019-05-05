@@ -4,6 +4,7 @@
     <title>A site about some dogs</title>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" 
     rel="stylesheet">
+    <script type="text/javascript" src="javascript.js"></script>
     <link rel="stylesheet" type="text/css" href="style1.css"> 
   </head>
   <body>
@@ -16,12 +17,12 @@
       </ul>
     </nav>
     <header>
-      <form>
-        <h1>A Site About <span>Some Dogs</span></h1>
+      <div class="about-some-dogs">
+        <h1>A Site About <span id="My-Dog-Name">Some Dogs</span></h1>
         <img class="dog-image" src="images/dog1-sq.jpg" alt="Happy orange boxer dog">
-        <input type="text" name="Dog-name">
-        <button>Name This Dog</button>
-     </form> 
+        <input type="text" id="Dog-name" name="Dog-name">
+        <button onclick="updateDogName(document.getElementById('Dog-name').value)">Name This Dog</button>
+     </div> 
     </header>
     <main>
       <div class="section">
