@@ -106,17 +106,22 @@ p {
 }
 /*------------Footer----------*/
 .footer-nav-link {
-  background-color: #75e2e6;
-  height: 100px;
+  background-color: #048eaa;
+  height: 200px;
+  padding-left: 550px;
 }
 
 span {
   text-align: center;
   display: block;
+  padding-right: 550px;
+  color: #ffffff;
+  padding-top: 18px;
+  padding-bottom: 17px;
 }
   
-.twitter .instagram .facebook .linkedin {
-  display: inline;
-  padding-top: 100%;
+.twitter, .instagram, .facebook, .linkedIn {
+  padding-left: 10px;
+  padding-top: 10px;
 }
 
