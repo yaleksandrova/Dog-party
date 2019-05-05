@@ -2,9 +2,8 @@
 
 body {
 
-  font-family: Open Sans;
+  font-family: Roboto;
   margin: 0px;
-  height: 
 }
 .dog-image {
   border-radius: 50%;
@@ -101,6 +100,7 @@ main {
   display: inline-block;
   float: left;
   text-align: center;
+  border-bottom: solid #9A969C 3px 
 }
 .main-button {
   width: 100px;
