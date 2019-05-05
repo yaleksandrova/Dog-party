@@ -1,0 +1,127 @@
+/*---------Body-------------*/
+body {
+
+  font-family: Open Sans;
+  margin: 0px;
+  height: 
+}
+.dog-image {
+  border-radius: 50%;
+  border: #048eaa 3px solid;
+  margin-bottom: 80px;
+  height: 200px;
+}
+
+/*----------Nav------------*/
+nav {
+  background-color: #75e2e6;
+  align-items: right;
+  padding-right: 100px;
+  padding-right: 25px;
+  height: 75px;
+  border-bottom: solid #048eaa 3px;
+
+}
+nav li {
+  list-style-type: none;
+  display: inline-block;
+  padding-left: 10px;
+  list-style-position: right;
+  float: right;
+    
+
+}
+.icon {
+  height: 55px;
+  padding: 10px;
+  padding-left: 30px;
+
+}
+ul {
+  display: inline-block;
+  float: right;
+  padding: 10px;
+  
+}
+a {
+  text-decoration: none;
+  color: #000000; 
+  font-weight: 600;
+}
+
+
+/*-----------Header---------*/
+
+header {
+  padding: 10px;
+  background-image: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),url("images/park.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+span {
+  font-weight: 700;
+
+}
+.about-some-dogs {
+  width: 300px;
+  margin: auto;
+}
+
+h1 {
+  color: #ffffff;
+  font-size: 1.5em; 
+  font-weight: 500;
+}
+
+button {
+  width: 100%;
+  height: 30px;
+  margin-top: 10px;
+}
+
+input {
+  display: block;
+  width: 99%;
+  height: 30px;
+  border-style: none;
+}
+/*-----------Main------------*/
+main {
+  height: 700px;
+
+}
+.column1, .column2, .column3 {
+  width: 31%;
+  margin: 10px;
+  margin-left: 10px;
+  display: inline-block;
+  float: left;
+  text-align: center;
+}
+button {
+}
+p {
+  height: 200px;
+}
+/*------------Footer----------*/
+.footer-nav-link {
+  background-color: #048eaa;
+  height: 200px;
+  padding-left: 550px;
+}
+
+.footer-span {
+  text-align: center;
+  display: block;
+  padding-right: 550px;
+  color: #ffffff;
+  padding-top: 18px;
+  padding-bottom: 17px;
+}
+  
+.twitter, .instagram, .facebook, .linkedIn {
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
