@@ -100,13 +100,10 @@ main {
   text-align: center;
 }
 button {
-  /*display: inline block;
-  width: 99%;
-  height: 30px;
-  border-style: none;
-  color: #048eaa;*/
 }
-
+p {
+  height: 200px;
+}
 /*------------Footer----------*/
 .footer-nav-link {
   background-color: #75e2e6;
